@@ -54,7 +54,7 @@ app.post('/tracking_pixel', express.json(), async (req, res) => {
   
 
 // Start server
-const PORT = process.env.PORT || 3000;
+const PORT =  4590;
 app.listen(PORT, () => {
   console.log(`📡 Tracking Pixel Server running on http://localhost:${PORT}`);
 });
